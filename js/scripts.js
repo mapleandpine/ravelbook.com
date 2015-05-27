@@ -1,6 +1,5 @@
 (function($){
 
-	
 	$(document).ready( function(){
 
 		new WOW().init();
@@ -42,7 +41,7 @@
 		$('#mc_form').ajaxChimp({
 			language: 'pix',
 			// Replace url with your unique list
-    		url: 'http://your-list.us1.list-manage.com/subscribe/post?u=000fff0000fffff000000fff0&id=0f0f0f0f0f0'
+    		url: 'http://ravelbook.us11.list-manage.com/subscribe/post?u=bb34b71dca03bc50592aad93a&amp;id=e038d73706'
 		});
 
 		// Mailchimp translation

@@ -313,6 +313,9 @@ h3 {
   font-size: 14px;
   font-size: 0.875rem;
 }
+.author .authorIcon {
+  font-size: 36px;
+}
 .pricing .planPrice p,
 .pricing .planPriceAlt p {
   font-weight: 400;
@@ -364,8 +367,9 @@ ul {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.benefits footer {
-  font-size: 13px;
+.benefits h4,
+.benefits p {
+  text-align: center;
 }
 .authorNote {
   color: #fff;
@@ -684,8 +688,7 @@ input[type="email"]:focus {
   }
   h4,
   .showcaseOne p,
-  .showcaseTwo p,
-  .benefits p {
+  .showcaseTwo p {
     text-align: left;
   }
   .showcaseOne,
