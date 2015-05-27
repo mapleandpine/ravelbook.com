@@ -222,7 +222,7 @@ input[type="submit"]:hover {
 /* ========== Pricing Table Styles ========== */
 
 .pricing {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
   border-top: 4px #e67e22 solid;
   margin-bottom: 20px;
@@ -289,6 +289,7 @@ h3 {
 .newsletter h3 {
   color: #2c3e50;
 }
+.authorNote h4,
 .showcaseOne h4,
 .showcaseOne p,
 .showcaseOne span,
@@ -316,7 +317,7 @@ h3 {
 .pricing .planPriceAlt p {
   font-weight: 400;
   font-size: 2rem;
-  color: #e67e22; 
+  color: #e67e22;
 }
 .pricing .planName h3:span {
   font-size: 1rem;
@@ -362,6 +363,12 @@ ul {
 .authorNote {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+.benefits footer {
+  font-size: 13px;
+}
+.authorNote {
+  color: #fff;
 }
 .socialButtons li,
 .mediaProof li {
@@ -430,13 +437,12 @@ ul {
   line-height: 1.4;
   margin-top: 0;
 }
-.authorNote,
 .benefits,
 .testimonials,
 .pricing .planPrice {
-  background-color: #f8f8f8;
-  border-top: 1px solid #ededed;
-  border-bottom: 1px solid #ededed;
+  background-color: #f0f0f0;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
 }
 .bookAuthor img {
   margin: 0 auto;
@@ -568,7 +574,7 @@ input[type="email"]:focus {
   width: 24px;
 }
 /* Footer Styles */
-footer {
+.footer {
   color: #f8f8f8;
   padding: 20px 0;
 }
@@ -633,7 +639,6 @@ footer {
     width: 90%;
   }
   .productShowcaseOne img,
-  .productShowcaseTwo img,
   .bookAuthor img {
     margin: 0 auto;
     display: block;
@@ -673,13 +678,9 @@ footer {
     padding-bottom: 0;
   }
   .productShowcaseOne img,
-  .productShowcaseTwo img,
   .bookAuthor img {
     margin: 0;
     display: inline-block;
-  }
-  .productShowcaseTwo {
-    padding-bottom: 80px;
   }
   h4,
   .showcaseOne p,

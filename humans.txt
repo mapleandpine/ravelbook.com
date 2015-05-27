@@ -2,7 +2,15 @@
 /* zurb.com */
 /* humanstxt.org */
 
+/* TEAM */
+
+Your title: Nic Marson
+Site: http://nicmarson.com
+Twitter: nicmarson
+Location: Portland, Oregon, United States
+
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+Last update: 2015/05/26
+Standards: HTML5, CSS3
+Components: jQuery, Orbit, Reveal
+Software: Sublime, Git, Sass
