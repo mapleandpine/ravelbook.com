@@ -41,29 +41,29 @@
 		$('#mc_form').ajaxChimp({
 			language: 'pix',
 			// Replace url with your unique list
-    		url: 'http://ravelbook.us11.list-manage.com/subscribe/post?u=bb34b71dca03bc50592aad93a&amp;id=e038d73706'
+			url: 'http://ravelbook.us11.list-manage.com/subscribe/post?u=bb34b71dca03bc50592aad93a&amp;id=e038d73706'
 		});
 
 		// Mailchimp translation
-	    //
-	    // Defaults:
-	    //'submit': 'Submitting...',
-	    //  0: 'We have sent you a confirmation email',
-	    //  1: 'Please enter a value',
-	    //  2: 'An email address must contain a single @',
-	    //  3: 'The domain portion of the email address is invalid (the portion after the @: )',
-	    //  4: 'The username portion of the email address is invalid (the portion before the @: )',
-	    //  5: 'This email address looks fake or invalid. Please enter a real email address'
+		//
+		// Defaults:
+		//'submit': 'Submitting...',
+		//  0: 'We have sent you a confirmation email',
+		//  1: 'Please enter a value',
+		//  2: 'An email address must contain a single @',
+		//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
+		//  4: 'The username portion of the email address is invalid (the portion before the @: )',
+		//  5: 'This email address looks fake or invalid. Please enter a real email address'
 
-	    $.ajaxChimp.translations.pix = {
-	      'submit': 'Submitting...',
-	      0: '<i class="icon-checkmark2"></i> Thank you! We have sent you a confirmation email',
-	      1: '<i class="icon-cross"></i> You must enter a valid e-mail address.',
-	      2: '<i class="icon-cross"></i> E-mail address is not valid.',
-	      3: '<i class="icon-cross"></i> E-mail address is not valid.',
-	      4: '<i class="icon-cross"></i> E-mail address is not valid.',
-	      5: '<i class="icon-cross"></i> E-mail address is not valid.'
-	    }
+		$.ajaxChimp.translations.pix = {
+		  'submit': 'Submitting...',
+		  0: '<i class="icon-checkmark2"></i> Thank you! We have sent you a confirmation email',
+		  1: '<i class="icon-cross"></i> You must enter a valid e-mail address.',
+		  2: '<i class="icon-cross"></i> E-mail address is not valid.',
+		  3: '<i class="icon-cross"></i> E-mail address is not valid.',
+		  4: '<i class="icon-cross"></i> E-mail address is not valid.',
+		  5: '<i class="icon-cross"></i> E-mail address is not valid.'
+		};
 
 	});
 
