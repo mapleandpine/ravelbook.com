@@ -609,7 +609,7 @@ input[type="email"]:focus {
   text-align: center;
   margin: 10px auto 0 auto;
 }
-.paymentSystem img {
+.paymentSystem div {
   margin-right: .5%;
   margin-bottom: 5px;
 }
@@ -715,4 +715,288 @@ input[type="email"]:focus {
   .footerNav {
     text-align: right;
   }
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+/* Social Icons */
+
+.ico_googleplus-32, .ico_amazon-32, .ico_behance-32, .ico_apple-32, .ico_blogger-32, .ico_digg-32, .ico_deviantart-32, .ico_dribbble-32, .ico_dropbox-32, .ico_drupal-32, .ico_ebay-32, .ico_email-32, .ico_evernote-32, .ico_facebook-32, .ico_flickr-32, .ico_foursquare-32, .ico_github-32, .ico_android-32, .ico_instagram-32, .ico_linkedin-32, .ico_pinboard-32, .ico_pinterest-32, .ico_readability-32, .ico_reddit-32, .ico_skype-32, .ico_slideshare-32, .ico_spotify-32, .ico_stumbleupon-32, .ico_tumblr-32, .ico_twitter-32, .ico_vimeo-32, .ico_vine-32, .ico_wordpress-32, .ico_yahoo-32, .ico_youtube-32 {
+  display: inline-block;
+  background-image: url(social-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_googleplus-32 {
+  background-position: -0px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_amazon-32 {
+  background-position: -32px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_behance-32 {
+  background-position: -0px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_apple-32 {
+  background-position: -32px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_blogger-32 {
+  background-position: -64px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_digg-32 {
+  background-position: -64px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_deviantart-32 {
+  background-position: -0px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_dribbble-32 {
+  background-position: -32px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_dropbox-32 {
+  background-position: -64px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_drupal-32 {
+  background-position: -96px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_ebay-32 {
+  background-position: -96px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_email-32 {
+  background-position: -96px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_evernote-32 {
+  background-position: -0px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_facebook-32 {
+  background-position: -32px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_flickr-32 {
+  background-position: -64px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_foursquare-32 {
+  background-position: -96px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_github-32 {
+  background-position: -128px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_android-32 {
+  background-position: -128px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_instagram-32 {
+  background-position: -128px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_linkedin-32 {
+  background-position: -128px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_pinboard-32 {
+  background-position: -0px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_pinterest-32 {
+  background-position: -32px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_readability-32 {
+  background-position: -64px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_reddit-32 {
+  background-position: -96px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_skype-32 {
+  background-position: -128px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_slideshare-32 {
+  background-position: -160px -0px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_spotify-32 {
+  background-position: -160px -32px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_stumbleupon-32 {
+  background-position: -160px -64px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_tumblr-32 {
+  background-position: -160px -96px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_twitter-32 {
+  background-position: -160px -128px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_vimeo-32 {
+  background-position: -0px -160px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_vine-32 {
+  background-position: -32px -160px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_wordpress-32 {
+  background-position: -64px -160px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_yahoo-32 {
+  background-position: -96px -160px;
+  height: 32px;
+  width: 32px
+}
+
+.ico_youtube-32 {
+  background-position: -128px -160px;
+  height: 32px;
+  width: 32px
+}
+
+
+
+/* Payment Icons */
+.ico_bitcoin, .ico_americanexpress, .ico_discover, .ico_googlewallet, .ico_paypal, .ico_mastercard, .ico_skrill, .ico_visa {
+  display: inline-block;
+  background-image: url(../img/payment-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_bitcoin {
+  background-position: -0px -0px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_americanexpress {
+  background-position: -41px -0px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_discover {
+  background-position: -0px -25px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_googlewallet {
+  background-position: -41px -25px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_paypal {
+  background-position: -0px -50px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_mastercard {
+  background-position: -41px -50px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_skrill {
+  background-position: -82px -0px;
+  height: 25px;
+  width: 41px
+}
+
+.ico_visa {
+  background-position: -82px -25px;
+  height: 25px;
+  width: 41px
 }
