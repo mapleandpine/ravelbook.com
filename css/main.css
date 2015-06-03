@@ -70,16 +70,19 @@ Color Scheme: Background Image - Carrot Button
 .bgImage {
   background: linear-gradient(rgba(49, 49, 49, 0.5), rgba(49, 49, 49, 0.5)), url(../img/forest_bg.jpg) no-repeat bottom center;
   background-size: cover;
+  position: relative;
 }
 
 .productShowcaseOne {
-  background: url(../img/3d-curved-bg.jpg) no-repeat bottom center;
+  background: url(../img/hanger_bg.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
 }
 
 .pricingTables {
-  background: transparent url(../img/cave_bg.jpg) no-repeat center center;
+  background: transparent url(../img/hike_bg.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
 }
 /* ========== Hover Effects ========== */
 
@@ -214,6 +217,10 @@ input[type="submit"]:hover {
   display: block;
 }
 /* ========== Column and Showcase Icon Font Styles ========== */
+
+cite {
+  color: #fff;
+}
 
 .showcaseOne span,
 .showcaseTwo span,
@@ -456,6 +463,14 @@ ul {
 .pricingTables > div,
 .testimonials > div {
   padding: 0 2%;
+}
+
+.bgImage cite,
+.productShowcaseOne cite,
+.pricingTables cite {
+  bottom: 1em;
+  position: absolute;
+  right: 1em;
 }
 
 .pricing .planName h3 {
