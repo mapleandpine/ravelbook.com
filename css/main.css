@@ -4,72 +4,83 @@ Author: Pixelosaur, http://pixelosaur.com/
 Version: 1.2
 Color Scheme: Background Image - Carrot Button
 */
-
 /* ============ Google Fonts ============ */
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 @import url(http://fonts.googleapis.com/css?family=Raleway:500,800);
-
 /* ============ Color Schemes ============ */
 
 .black {
   background-color: #2c2c2c;
 }
+
 .blue {
   background-color: #37bec4;
 }
+
 .orange {
   background-color: #ee5a3e;
 }
+
 .lightBlue {
   background-color: #96bfc5;
 }
+
 .green {
   background-color: #b6c04c;
 }
+
 .purple {
   background-color: #695da7;
 }
+
 .red {
   background-color: #cc2227;
 }
+
 .grey {
   background-color: #f5f6f7;
 }
+
 .darkBlue {
   background-color: #2c3e50;
 }
+
 .yellow {
   background-color: #edc951;
 }
+
 .deepBlue {
   background-color: #154377;
 }
+
 .turquoise {
   background-color: #1abc9c;
 }
+
 .carrot {
   background-color: #e67e22;
 }
+
 .brightBlue {
   background-color: #00b8df;
 }
-
 /* ========== Background Images ========== */
 
 .bgImage {
   background: linear-gradient(rgba(49, 49, 49, 0.5), rgba(49, 49, 49, 0.5)), url(../img/forest_bg.jpg) no-repeat bottom center;
   background-size: cover;
 }
+
 .productShowcaseOne {
   background: url(../img/3d-curved-bg.jpg) no-repeat bottom center;
   background-size: cover;
 }
+
 .pricingTables {
   background: transparent url(../img/cave_bg.jpg) no-repeat center center;
   background-size: cover;
 }
-
 /* ========== Hover Effects ========== */
 
 .buyButton:hover,
@@ -88,32 +99,39 @@ input[type="submit"]:hover {
   -o-transition: all 300ms linear;
   transition: all 300ms linear;
 }
+
 .socialButtons img {
   opacity: 0.7;
 }
+
 .socialButtons img:hover,
 .mediaProof img:hover {
   opacity: initial;
   background-color: transparent;
 }
 /* Media Proof Logo Effects */
+
 .mediaProof img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 4+ */
-  filter: gray; /* IE 6-9 */
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  /* Firefox 4+ */
+
+  filter: gray;
+  /* IE 6-9 */
+
   opacity: 0.6;
   vertical-align: bottom;
 }
+
 .mediaProof img:hover {
   -webkit-filter: initial;
   -moz-filter: initial;
   -ms-filter: initial;
   filter: initial;
 }
-
 /* ========== Button Styles ========== */
 
 .buyButton,
@@ -130,17 +148,20 @@ input[type="submit"]:hover {
   border-radius: 2px;
   outline: none;
 }
+
 .buyButtonPricing {
   width: 60%;
   margin: 0 auto 20px auto;
   display: inline-block;
 }
+
 .buyButton span {
   text-transform: initial;
   font-weight: 300;
   font-size: 0.75rem;
   line-height: 0.75rem;
 }
+
 .watchVideo,
 .watchVideo:hover,
 .watchVideo:active,
@@ -151,11 +172,13 @@ input[type="submit"]:hover {
   padding-left: 1.375rem;
   line-height: 1.5rem;
 }
+
 .watchVideo span {
   font-size: 1.75rem;
   vertical-align: middle;
   padding: 0 0.5rem 0 0;
 }
+
 input[type="submit"] {
   width: 100%;
   background-color: #2c3e50;
@@ -165,6 +188,7 @@ input[type="submit"] {
   font-size: 1.25rem;
   cursor: pointer;
 }
+
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   outline: none;
@@ -172,10 +196,9 @@ input[type="submit"]:hover {
   border: 2px solid #2c3e50;
   color: #2c3e50;
 }
-
 /* ========== Image Styles ========== */
-
 /* Logo Dimensions */
+
 #logo img {
   width: 219px;
   height: auto;
@@ -183,13 +206,13 @@ input[type="submit"]:hover {
   margin: 0 auto;
 }
 /* E-Book Image Dimensions */
+
 #productHero {
   max-width: 320px;
   height: auto;
   margin: 40px auto;
   display: block;
 }
-
 /* ========== Column and Showcase Icon Font Styles ========== */
 
 .showcaseOne span,
@@ -205,6 +228,7 @@ input[type="submit"]:hover {
   height: 82px;
   margin: 0 auto 20px auto;
 }
+
 .cols span {
   box-shadow: none;
   font-size: 2rem;
@@ -214,7 +238,6 @@ input[type="submit"]:hover {
   color: #e67e22;
   line-height: 48px;
 }
-
 /* ========== Pricing Table Styles ========== */
 
 .pricing {
@@ -223,11 +246,11 @@ input[type="submit"]:hover {
   border-top: 4px #e67e22 solid;
   margin-bottom: 20px;
 }
+
 .pricing .planPriceAlt {
   border-top: 2px solid #bf6516;
   border-bottom: 2px solid #bf6516;
 }
-
 /* ========== Typography Styles ========== */
 
 body,
@@ -237,40 +260,48 @@ h4 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
+
 p {
   font-size: 1.125em;
   text-align: center;
 }
+
 h1,
 h2,
 h3 {
   letter-spacing: .0125em;
 }
+
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 3rem;
   font-weight: 800;
 }
+
 h2 {
   font-size: 1.75rem;
   font-weight: 500;
 }
+
 h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+
 h4 {
   font-size: 1.375rem;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
 }
+
 header p {
   font-size: 1.125rem;
   font-weight: 300;
   padding-bottom: 20px;
 }
+
 header p,
 h1,
 h2,
@@ -279,6 +310,7 @@ h3,
   color: #f8f8f8;
   text-align: center;
 }
+
 .benefits h3,
 .benefits h4,
 .benefits p,
@@ -288,9 +320,11 @@ h3,
 h3 {
   color: #2c2c2c;
 }
+
 .newsletter h3 {
   color: #2c3e50;
 }
+
 .authorNote h4,
 .showcaseOne h4,
 .showcaseOne p,
@@ -301,66 +335,79 @@ h3 {
   color: #f8f8f8;
   font-weight: 400;
 }
+
 .showcaseOne h4,
 .showcaseOne p,
 .showcaseOne span {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
+
 .author .authorInfo li:first-child {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 500;
 }
+
 .author .authorInfo li:last-child {
   font-size: 14px;
   font-size: 0.875rem;
 }
+
 .author .authorIcon {
   font-size: 36px;
 }
+
 .pricing .planPrice p,
 .pricing .planPriceAlt p {
   font-weight: 400;
   font-size: 2rem;
   color: #e67e22;
 }
+
 .pricing .planName h3:span {
   font-size: 1rem;
   text-transform: initial;
 }
+
 .pricing .planPriceAlt p {
   color: #f8f8f8;
 }
+
 .testimonials p {
   font-style: italic;
   text-align: left;
 }
-
 /* ========== Required Layout Styles ========== */
 
 body {
   overflow-x: hidden;
 }
+
 .topBar {
   padding-top: 40px;
 }
+
 header {
   padding: 0 2% 20px;
 }
+
 #logo a,
 .socialButtons a {
   display: block;
 }
+
 ul {
   list-style: none;
   width: 100%;
   text-align: center;
   margin: 10px 0;
 }
+
 .content {
   margin-top: 80px;
   padding: 0 2%;
 }
+
 .benefits,
 .pricingTables,
 .testimonials,
@@ -369,41 +416,52 @@ ul {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .benefits h4,
 .benefits p {
   text-align: center;
 }
+
 .authorNote {
   color: #fff;
 }
+
 .socialButtons li,
 .mediaProof li {
   display: inline-block;
 }
+
 .mediaProof {
   padding: 30px 0 20px 0;
 }
+
 .mediaProof li {
   margin-bottom: 10px;
 }
+
 .cols {
   padding-bottom: 20px;
 }
+
 .showcaseOne,
 .showcaseTwo {
   display: inline-block;
   margin: 60px 0;
 }
+
 .showcaseOne span {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
+
 .pricingTables > div,
 .testimonials > div {
   padding: 0 2%;
 }
+
 .pricing .planName h3 {
   padding: 40px 5px;
 }
+
 .pricing .planPrice p,
 .pricing .planDetails p,
 .pricing .planPriceAlt p {
@@ -411,38 +469,46 @@ ul {
   padding: 20px 5px;
   margin-bottom: 0;
 }
+
 .table {
   display: table;
 }
+
 .table .tableCell {
   display: table-cell;
   padding: 10px;
   margin-bottom: 20px;
   border-left: 2px solid #ccc;
 }
+
 .author ul {
   width: auto;
 }
+
 .author img,
 .author .authorInfo {
   display: inline-block;
   vertical-align: middle;
 }
+
 .author img,
 .bookAuthor img {
   border-radius: 50%;
   margin-right: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
 .author img {
   width: 64px;
   height: 64px;
 }
+
 .author .authorInfo {
   text-align: left;
   line-height: 1.4;
   margin-top: 0;
 }
+
 .benefits,
 .testimonials,
 .pricing .planPrice {
@@ -450,18 +516,22 @@ ul {
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
 }
+
 .bookAuthor img {
   margin: 0 auto;
   display: block;
   float: none;
 }
+
 input[type="email"],
 input[type="submit"] {
   height: 48px;
 }
+
 input[type="email"]:focus {
   box-shadow: none;
 }
+
 .newsletter span {
   text-align: center;
   color: #333;
@@ -470,6 +540,7 @@ input[type="email"]:focus {
 #mc_msg {
   padding: 10px 20px;
 }
+
 #newsletter-form span.error {
   background: red;
   background: rgba(224, 0, 0, 0.8);
@@ -484,11 +555,13 @@ input[type="email"]:focus {
   text-transform: uppercase;
   top: -15px;
 }
+
 .newsletter .spinner {
   height: 40px;
   margin: 0 auto;
   width: 80px;
 }
+
 .newsletter .square {
   background: #fff;
   background: rgba(49, 49, 49, 0.6);
@@ -496,6 +569,7 @@ input[type="email"]:focus {
   width: 15px;
   display: inline-block;
 }
+
 .square {
   -webkit-animation-name: zoom-out;
   -webkit-animation-duration: 2s;
@@ -516,24 +590,27 @@ input[type="email"]:focus {
   margin: 2px;
   width: 24px;
 }
+
 .square:nth-child(2) {
   -moz-animation-delay: 150ms;
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
 }
+
 .square:nth-child(3) {
   -moz-animation-delay: 300ms;
   -webkit-animation-delay: 300ms;
   animation-delay: 300ms;
 }
+
 .square:nth-child(4) {
   -moz-animation-delay: 450ms;
   -webkit-animation-delay: 450ms;
   animation-delay: 450ms;
 }
+
 @-webkit-keyframes zoom-out {
-  from,
-  to {
+  from, to {
     -webkit-transform: scale(0);
   }
   45%,
@@ -541,9 +618,9 @@ input[type="email"]:focus {
     -webkit-transform: scale(1);
   }
 }
+
 @-moz-keyframes zoom-out {
-  from,
-  to {
+  from, to {
     -moz-transform: scale(0);
   }
   45%,
@@ -551,9 +628,9 @@ input[type="email"]:focus {
     -moz-transform: scale(1);
   }
 }
+
 @keyframes zoom-out {
-  from,
-  to {
+  from, to {
     transform: scale(0);
   }
   45%,
@@ -561,6 +638,7 @@ input[type="email"]:focus {
     transform: scale(1);
   }
 }
+
 .newsletter .success {
   margin: 40px 0 30px 0;
   min-height: 80px;
@@ -568,6 +646,7 @@ input[type="email"]:focus {
   color: #2c3e50;
   font-size: 1.5rem;
 }
+
 .newsletter .success .icon {
   color: #2c3e50;
   display: inline-block;
@@ -580,40 +659,47 @@ input[type="email"]:focus {
   width: 24px;
 }
 /* Footer Styles */
+
 .footer {
   color: #f8f8f8;
   padding: 20px 0;
 }
+
 .footerNav {
   text-align: center;
   font-size: 0.75rem;
 }
+
 .copyright {
   font-size: 0.75rem;
   text-align: center;
 }
+
 .copyright,
 .footerNav a {
   padding: 6px;
 }
+
 .footerNav a {
   display: inline-block;
   color: #f8f8f8;
 }
+
 #privacy {
   font-size: 0.75rem;
 }
+
 .paymentSystem {
   display: block;
   width: 100%;
   text-align: center;
   margin: 10px auto 0 auto;
 }
+
 .paymentSystem div {
   margin-right: .5%;
   margin-bottom: 5px;
 }
-
 /* =========== Media Queries =========== */
 
 @media only screen and (min-width: 40.063em) {
@@ -651,6 +737,7 @@ input[type="email"]:focus {
     float: none;
   }
 }
+
 @media only screen and (min-width: 711px) {
   input[type="email"],
   input[type="submit"] {
@@ -662,12 +749,14 @@ input[type="email"]:focus {
     width: 30%;
   }
 }
+
 @media only screen and (min-width: 989px) {
   .buyButton,
   .watchVideo {
     margin-right: 2%;
   }
 }
+
 @media only screen and (min-width: 64.063em) {
   header h1 {
     padding-top: 4rem;
@@ -718,285 +807,279 @@ input[type="email"]:focus {
 }
 
 .hidden {
-  position:absolute;
-  left:-10000px;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* Media Icons */
+
+.ico_google_play,
+.ico_amazon_kindle,
+.ico_apple_ibooks,
+.ico_kobo,
+.ico_barnes_noble_nook,
+.ico_smashwords {
+  display: inline-block;
+  background-image: url(../img/media-sprite.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
 }
 
+.ico_google_play {
+  background-position: -0px -0px;
+}
+
+.ico_amazon_kindle {
+  background-position: -0px -61px;
+}
+
+.ico_apple_ibooks {
+  background-position: -0px -121px;
+}
+
+.ico_kobo {
+  background-position: -0px -180px;
+}
+
+.ico_barnes_noble_nook {
+  background-position: -0px -240px;
+}
+
+.ico_smashwords {
+  background-position: -0px -300px;
+}
 /* Social Icons */
 
-.ico_googleplus-32, .ico_amazon-32, .ico_behance-32, .ico_apple-32, .ico_blogger-32, .ico_digg-32, .ico_deviantart-32, .ico_dribbble-32, .ico_dropbox-32, .ico_drupal-32, .ico_ebay-32, .ico_email-32, .ico_evernote-32, .ico_facebook-32, .ico_flickr-32, .ico_foursquare-32, .ico_github-32, .ico_android-32, .ico_instagram-32, .ico_linkedin-32, .ico_pinboard-32, .ico_pinterest-32, .ico_readability-32, .ico_reddit-32, .ico_skype-32, .ico_slideshare-32, .ico_spotify-32, .ico_stumbleupon-32, .ico_tumblr-32, .ico_twitter-32, .ico_vimeo-32, .ico_vine-32, .ico_wordpress-32, .ico_yahoo-32, .ico_youtube-32 {
+.ico_googleplus,
+.ico_amazon,
+.ico_behance,
+.ico_apple,
+.ico_blogger,
+.ico_digg,
+.ico_deviantart,
+.ico_dribbble,
+.ico_dropbox,
+.ico_drupal,
+.ico_ebay,
+.ico_email,
+.ico_evernote,
+.ico_facebook,
+.ico_flickr,
+.ico_foursquare,
+.ico_github,
+.ico_android,
+.ico_instagram,
+.ico_linkedin,
+.ico_pinboard,
+.ico_pinterest,
+.ico_readability,
+.ico_reddit,
+.ico_skype,
+.ico_slideshare,
+.ico_spotify,
+.ico_stumbleupon,
+.ico_tumblr,
+.ico_twitter,
+.ico_vimeo,
+.ico_vine,
+.ico_wordpress,
+.ico_yahoo,
+.ico_youtube {
   display: inline-block;
-  background-image: url(social-sprite.png);
-  background-repeat: no-repeat
+  background-image: url(../img/social-sprite.png);
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
 }
 
-.ico_googleplus-32 {
+.ico_googleplus {
   background-position: -0px -0px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_amazon-32 {
-  background-position: -32px -0px;
-  height: 32px;
-  width: 32px
+.ico_amazon {
+  background-position: 32px -0px;
 }
 
-.ico_behance-32 {
-  background-position: -0px -32px;
-  height: 32px;
-  width: 32px
+.ico_behance {
+  background-position: -0px 32px;
 }
 
-.ico_apple-32 {
-  background-position: -32px -32px;
-  height: 32px;
-  width: 32px
+.ico_apple {
+  background-position: 32px 32px;
 }
 
-.ico_blogger-32 {
+.ico_blogger {
   background-position: -64px -0px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_digg-32 {
-  background-position: -64px -32px;
-  height: 32px;
-  width: 32px
+.ico_digg {
+  background-position: -64px 32px;
 }
 
-.ico_deviantart-32 {
+.ico_deviantart {
   background-position: -0px -64px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_dribbble-32 {
-  background-position: -32px -64px;
-  height: 32px;
-  width: 32px
+.ico_dribbble {
+  background-position: 32px -64px;
 }
 
-.ico_dropbox-32 {
+.ico_dropbox {
   background-position: -64px -64px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_drupal-32 {
+.ico_drupal {
   background-position: -96px -0px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_ebay-32 {
-  background-position: -96px -32px;
-  height: 32px;
-  width: 32px
+.ico_ebay {
+  background-position: -96px 32px;
 }
 
-.ico_email-32 {
+.ico_email {
   background-position: -96px -64px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_evernote-32 {
+.ico_evernote {
   background-position: -0px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_facebook-32 {
+.ico_facebook {
   background-position: -32px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_flickr-32 {
+.ico_flickr {
   background-position: -64px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_foursquare-32 {
+.ico_foursquare {
   background-position: -96px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_github-32 {
+.ico_github {
   background-position: -128px -0px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_android-32 {
-  background-position: -128px -32px;
-  height: 32px;
-  width: 32px
+.ico_android {
+  background-position: -128px 32px;
 }
 
-.ico_instagram-32 {
+.ico_instagram {
   background-position: -128px -64px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_linkedin-32 {
+.ico_linkedin {
   background-position: -128px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_pinboard-32 {
+.ico_pinboard {
   background-position: -0px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_pinterest-32 {
+.ico_pinterest {
   background-position: -32px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_readability-32 {
+.ico_readability {
   background-position: -64px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_reddit-32 {
+.ico_reddit {
   background-position: -96px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_skype-32 {
+.ico_skype {
   background-position: -128px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_slideshare-32 {
+.ico_slideshare {
   background-position: -160px -0px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_spotify-32 {
-  background-position: -160px -32px;
-  height: 32px;
-  width: 32px
+.ico_spotify {
+  background-position: -160px 32px;
 }
 
-.ico_stumbleupon-32 {
+.ico_stumbleupon {
   background-position: -160px -64px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_tumblr-32 {
+.ico_tumblr {
   background-position: -160px -96px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_twitter-32 {
+.ico_twitter {
   background-position: -160px -128px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_vimeo-32 {
+.ico_vimeo {
   background-position: -0px -160px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_vine-32 {
+.ico_vine {
   background-position: -32px -160px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_wordpress-32 {
+.ico_wordpress {
   background-position: -64px -160px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_yahoo-32 {
+.ico_yahoo {
   background-position: -96px -160px;
-  height: 32px;
-  width: 32px
 }
 
-.ico_youtube-32 {
+.ico_youtube {
   background-position: -128px -160px;
-  height: 32px;
-  width: 32px
 }
-
-
-
 /* Payment Icons */
-.ico_bitcoin, .ico_americanexpress, .ico_discover, .ico_googlewallet, .ico_paypal, .ico_mastercard, .ico_skrill, .ico_visa {
+
+.ico_bitcoin,
+.ico_americanexpress,
+.ico_discover,
+.ico_googlewallet,
+.ico_paypal,
+.ico_mastercard,
+.ico_skrill,
+.ico_visa {
   display: inline-block;
   background-image: url(../img/payment-sprite.png);
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 41px
 }
 
 .ico_bitcoin {
   background-position: -0px -0px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_americanexpress {
   background-position: -41px -0px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_discover {
   background-position: -0px -25px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_googlewallet {
   background-position: -41px -25px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_paypal {
   background-position: -0px -50px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_mastercard {
   background-position: -41px -50px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_skrill {
   background-position: -82px -0px;
-  height: 25px;
-  width: 41px
 }
 
 .ico_visa {
   background-position: -82px -25px;
-  height: 25px;
-  width: 41px
 }
