@@ -1,0 +1,38 @@
+/* ========== Image Styles ========== */
+/* Logo Dimensions */
+
+#logo img {
+  width: 219px;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* E-Book Image Dimensions */
+
+#productHero {
+  max-width: 320px;
+  height: auto;
+  margin: 40px auto;
+  display: block;
+}
+
+#logo a,
+.socialButtons a {
+  display: block;
+}
+
+.socialButtons li {
+  display: inline-block;
+}
+
+/* Media Proof Logo Effects */
+
+.mediaProof {
+  padding: 30px 0 20px 0;
+
+  li {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
