@@ -1,41 +1,81 @@
 /* ========== Sections ========== */
 
-.bgImage {
-    background: linear-gradient(rgba(49, 49, 49, 0.5), rgba(49, 49, 49, 0.5)), url(../images/forest_bg.jpg) no-repeat bottom center;
+.bgImage,
+.productShowcaseOne,
+.pricingTables {
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
     h1,
     h2 {
-        color: #f8f8f8;
+        color: $alabaster;
+    }
+
+    cite {
+        bottom: 1em;
+        position: absolute;
+        right: 1em;
+
+        a {
+            color: $white;
+            text-decoration: underline;
+        }
     }
 }
 
+.bgImage {
+    background-image: linear-gradient(rgba(49, 49, 49, 0.5), rgba(49, 49, 49, 0.5));
+    background-image: url(../images/forest_bg.jpg);
+    background-position: bottom center;
+}
+
 .productShowcaseOne {
-    background: url(../images/hanger_bg.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
+    background-image: url(../images/hanger_bg.jpg);
+    background-position: center center;
 }
 
 .pricingTables {
-    background: transparent url(../images/hike_bg.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
+    background-image: url(../images/hike_bg.jpg);
+    background-position: center center;
 }
 
 /* ========== Column and Showcase Icon Font Styles ========== */
 
-.showcaseOne span,
-.showcaseTwo span {
-    font-size: 3rem;
-    border-radius: 50%;
-    border: 2px solid $white;
-    line-height: 80px;
-    text-align: center;
-    display: block;
-    width: 82px;
-    height: 82px;
-    margin: 0 auto 20px auto;
+.showcaseOne,
+.showcaseTwo {
+    display: inline-block;
+    margin: 60px 0;
+
+    span {
+        font-size: 3rem;
+        border-radius: 50%;
+        border: 2px solid $white;
+        line-height: 80px;
+        text-align: center;
+        display: block;
+        width: 82px;
+        height: 82px;
+        margin: 0 auto 20px auto;
+    }
+}
+
+.showcaseOne {
+    h4, p, span {
+        color: $alabaster;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    span {
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+}
+
+.showcaseTwo {
+    h4, p, span {
+        color: $alabaster;
+        font-weight: 400;
+    }
 }
 
 .cols span {
@@ -66,6 +106,19 @@
     padding-bottom: 80px;
 }
 
+.benefits,
+.testimonials,
+.pricing .planPrice {
+    background-color: #f0f0f0;
+    border-top: 1px solid $gallery;
+    border-bottom: 1px solid $gallery;
+}
+
+.pricingTables > div,
+.testimonials > div {
+    padding: 0 2%;
+}
+
 .benefits {
     text-align: center;
 
@@ -78,43 +131,6 @@
     }
 }
 
-.showcaseOne,
-.showcaseTwo {
-    display: inline-block;
-    margin: 60px 0;
-}
-
-.showcaseOne {
-    h4, p, span {
-        color: #f8f8f8;
-        font-weight: 400;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-    }
-    span {
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-    }
-}
-
-.showcaseTwo {
-    h4, p, span {
-        color: #f8f8f8;
-        font-weight: 400;
-    }
-}
-
-.pricingTables > div,
-.testimonials > div {
-    padding: 0 2%;
-}
-
-.bgImage cite,
-.productShowcaseOne cite,
-.pricingTables cite {
-    bottom: 1em;
-    position: absolute;
-    right: 1em;
-}
-
 .testimonials h3 {
     color: $dark-gray;
 }
@@ -124,17 +140,9 @@
     text-align: left;
 }
 
-.benefits,
-.testimonials,
-.pricing .planPrice {
-    background-color: #f0f0f0;
-    border-top: 1px solid #eaeaea;
-    border-bottom: 1px solid #eaeaea;
-}
-
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
+    background: $light-gray;
+    color: $black;
     padding: 0.2em 0;
 }

@@ -2,12 +2,12 @@
 
 .pricing {
     background-color: $white;
-    text-align: center;
     border-top: 4px $carrot solid;
     margin-bottom: 20px;
+    text-align: center;
     .planPriceAlt {
-        border-top: 2px solid #bf6516;
-        border-bottom: 2px solid #bf6516;
+        border-top: 2px solid $orange-roughy;
+        border-bottom: 2px solid $orange-roughy;
     }
     .planName h3 {
         padding: 40px 5px;
@@ -30,7 +30,7 @@
         text-transform: initial;
     }
     .planPriceAlt p {
-        color: #f8f8f8;
+        color: $alabaster;
     }
 }
 

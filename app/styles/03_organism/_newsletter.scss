@@ -1,3 +1,5 @@
+// Mailchimp Newsletter
+
 input {
   &[type="email"], &[type="submit"] {
     height: 48px;
@@ -16,7 +18,7 @@ input {
   background: rgba(224, 0, 0, 0.8);
   border: 1px solid red;
   border-radius: 3px;
-  color: #fff;
+  color: $white;
   font-size: 10px;
   letter-spacing: 1px;
   padding: 5px;
@@ -32,10 +34,10 @@ input {
     margin-bottom: 20px;
   }
   span {
-    color: #333;
+    color: $dark-gray;
   }
   h3 {
-    color: #2c3e50;
+    color: $dark-blue;
   }
   .spinner {
     height: 40px;
@@ -43,7 +45,7 @@ input {
     width: 80px;
   }
   .square {
-    background: #fff;
+    background: $white;
     background: rgba(49, 49, 49, 0.6);
     height: 15px;
     width: 15px;
@@ -52,10 +54,10 @@ input {
   .success {
     margin: 40px 0 30px 0;
     min-height: 80px;
-    color: #2c3e50;
+    color: $dark-blue;
     font-size: 1.5rem;
     .icon {
-      color: #2c3e50;
+      color: $dark-blue;
       display: inline-block;
       font-size: 18px;
       height: 24px;

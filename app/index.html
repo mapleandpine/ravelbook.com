@@ -41,6 +41,9 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="/bower_components/foundation/css/foundation.css" />
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -131,9 +134,21 @@
         </li>
       </ul>
     </div>
-    <!-- https://gumroad.com/ -->
-    <!-- https://www.apple.com/itunes/marketing-your-books-on-ibooks/marketing-guidelines-ww.html -->
     <!-- Media Proof Logos End -->
+    <!-- Newsletter Section Start -->
+    <div class="newsletter row">
+      <h3>Join Our Newsletter</h3>
+      <p class="large-10 large-centered columns">Be the first! Sign up to receive updates and receive discounts on future book releases.</p>
+      <!-- Mailchimp Form Start -->
+      <form id="mc_form" class="clearfix small-12 medium-9 medium-centered large-6 large-centered columns">
+        <label for="mc_email" id="mc_msg"></label>
+        <input class="left" type="email" name="mc_email" id="mc_email" placeholder="Enter your valid e-mail">
+        <input class="left" type="submit" name="mc_submit" id="mc_submit" value="GO!">
+      </form>
+      <!-- Mailchimp Form End -->
+      <p id="privacy"><span class="icon-lock"></span>We respect your privacy</p>
+    </div>
+    <!-- Newsletter Section End -->
     <!-- List Of Benefits Section Start -->
     <div class="benefits">
       <h3>Books in the series</h3>
@@ -151,42 +166,58 @@
       </div>
     </div>
     <!-- List Of Benefits Section End -->
-    <!-- First Showcase Section Start -->
-    <div class="productShowcaseOne">
-      <div class="row">
-        <div class="content clearfix">
-          <div class="small-12 medium-12 large-5 columns showcaseOne wow fadeInLeft" data-wow-delay="0.5s">
-            <span class="icon-tablet"></span>
-            <h4>Read the Ravel series on your favorite device</h4>
-            <p>Follow Jenny Tripper&mdash;as she explores the worlds of Ravel&mdash;on your preferred device. You can: read a sample at Wattpad, or download a PDF or ePub; or purchase the full book at: Amazon Kindle, Kobo, Barnes &amp; Noble, Google Books, or Apple iBooks.</p>
-            <br>
+    <!-- Pricing Tables Section Start -->
+    <div class="pricingTables">
+      <div class="row" data-equalizer>
+        <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="0.5s">
+          <div class="pricing" data-equalizer-watch>
+            <div class="planName">
+              <h3>E-book</h3>
+            </div>
+            <div class="planPrice">
+              <p>&#36;5.99</p>
+            </div>
+            <div class="planDetails">
+              <p>A digital copy, PDF and ePub, <br>for your device.</p>
+            </div>
+            <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
           </div>
-          <div class="small-12 medium-12 large-7 columns wow fadeInRight" data-wow-delay="0.5s">
-            <img src="images/pad_with_hand.png" alt="E-book Showcase Image">
+        </div>
+        <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="1s">
+          <div class="pricing" data-equalizer-watch>
+            <div class="planName">
+              <h3>Audiobook</h3>
+            </div>
+            <div class="planPriceAlt carrot">
+              <p>&#36;20.00</p>
+            </div>
+            <div class="planDetails">
+              <p>Get a narrated version of the book. Available on Audible.</p>
+            </div>
+
+            <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
+          </div>
+        </div>
+
+        <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="1.5s">
+          <div class="pricing" data-equalizer-watch>
+            <div class="planName">
+              <h3>Hardcover</h3>
+            </div>
+            <div class="planPrice">
+              <p>&#36;15.00</p>
+            </div>
+            <div class="planDetails">
+              <p>A physical copy that uses static ink technology.</p>
+            </div>
+
+            <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
           </div>
         </div>
       </div>
-      <cite>Background image by <a href="http://justinoaksford.tumblr.com/image/80144823055">Justin Oaksford</a></cite>
+      <cite>Background image by <a href="http://www.justinoaksford.com/environments.html">Justin Oaksford</a></cite>
     </div>
-    <!-- First Showcase Section End -->
-    <!-- Second Showcase Section Start -->
-    <div class="authorNote carrot">
-      <div class="row">
-        <div class="content clearfix">
-          <!-- Book Author Section Start -->
-          <div class="small-12 medium-12 large-8 columns">
-            <h4>A Note From The Author</h4>
-            <p>Thank you for reading my book! I hope you enjoyed reading these stories as much as I did creating them. The settings and characters in Ravel have been created with love, creativity, and lots and lots of research. If you enjoyed reading my books, then please write a review&mdash;I promise I read every one&mdash;it's your feedback that helps me craft better stories.
-              <br>- Nicholas J. Marson -</p>
-          </div>
-          <div class="small-12 small-centered medium-12 large-4 large-uncentered columns bookAuthor">
-            <img src="images/avatar-5.jpg" alt="Author image">
-          </div>
-          <!-- Book Author Section End -->
-        </div>
-      </div>
-    </div>
-    <!-- Second Showcase Section End -->
+    <!-- Pricing Tables Section End -->
     <!-- Testimonials Start -->
     <div class="testimonials">
       <div class="row">
@@ -244,79 +275,49 @@
       </div>
     </div>
     <!-- Testimonials End -->
-    <!-- Pricing Tables Section Start -->
-    <div class="pricingTables">
-      <div class="row" data-equalizer>
-        <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="0.5s">
-          <div class="pricing" data-equalizer-watch>
-            <div class="planName">
-              <h3>E-book</h3>
-            </div>
-            <div class="planPrice">
-              <p>&#36;5.99</p>
-            </div>
-            <div class="planDetails">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
+    <!-- First Showcase Section Start -->
+    <div class="productShowcaseOne">
+      <div class="row">
+        <div class="content clearfix">
+          <div class="small-12 medium-12 large-5 columns showcaseOne wow fadeInLeft" data-wow-delay="0.5s">
+            <span class="icon-tablet"></span>
+            <h4>Read the Ravel series on your favorite device</h4>
+            <p>Follow Jenny Tripper&mdash;as she explores the worlds of Ravel&mdash;on your preferred device. You can: read a sample at Wattpad, or download a PDF or ePub; or purchase the full book at: Amazon Kindle, Kobo, Barnes &amp; Noble, Google Books, or Apple iBooks.</p>
+            <br>
+          </div>
+          <div class="small-12 medium-12 large-7 columns wow fadeInRight" data-wow-delay="0.5s">
+            <img src="images/pad_with_hand.png" alt="E-book Showcase Image">
           </div>
         </div>
-        <!-- <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="1s">
-            <div class="pricing" data-equalizer-watch>
-              <div class="planName">
-                <h3>Bundle</h3>
-              </div>
-              <div class="planPriceAlt carrot">
-                <p>&#36;10.00</p>
-              </div>
-              <div class="planDetails">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-
-              <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
-            </div>
-          </div>
-
-          <div class="small-12 medium-4 large-4 columns wow fadeInUp" data-wow-delay="1.5s">
-            <div class="pricing" data-equalizer-watch>
-              <div class="planName">
-                <h3>Hardcover</h3>
-              </div>
-              <div class="planPrice">
-                <p>&#36;15.00</p>
-              </div>
-              <div class="planDetails">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-
-              <a href="#" class="button buyButtonPricing carrot">BUY NOW!</a>
-            </div>
-          </div> -->
       </div>
-      <cite>Background image by <a href="http://www.justinoaksford.com/environments.html">Justin Oaksford</a></cite>
+      <cite>Background image by <a href="http://justinoaksford.tumblr.com/image/80144823055">Justin Oaksford</a></cite>
     </div>
-    <!-- Pricing Tables Section End -->
-    <!-- Newsletter Section Start -->
-    <div class="newsletter row">
-      <h3>Join Our Newsletter</h3>
-      <p class="large-10 large-centered columns">Be the first! Sign up to receive updates and receive discounts on future book releases.</p>
-      <!-- Mailchimp Form Start -->
-      <form id="mc_form" class="clearfix small-12 medium-9 medium-centered large-6 large-centered columns">
-        <label for="mc_email" id="mc_msg"></label>
-        <input class="left" type="email" name="mc_email" id="mc_email" placeholder="Enter your valid e-mail">
-        <input class="left" type="submit" name="mc_submit" id="mc_submit" value="GO!">
-      </form>
-      <!-- Mailchimp Form End -->
-      <p id="privacy"><span class="icon-lock"></span>We respect your privacy</p>
+    <!-- First Showcase Section End -->
+    <!-- Second Showcase Section Start -->
+    <div class="authorNote carrot">
+      <div class="row">
+        <div class="content clearfix">
+          <!-- Book Author Section Start -->
+          <div class="small-12 medium-12 large-8 columns">
+            <h4>A Note From The Author</h4>
+            <p>Thank you for reading my book! I hope you enjoyed reading these stories as much as I did creating them. The settings and characters in Ravel have been created with love, creativity, and lots and lots of research. If you enjoyed reading my books, then please write a review&mdash;I promise I read every one&mdash;it's your feedback that helps me craft better stories.
+              <br>- Nicholas J. Marson -</p>
+          </div>
+          <div class="small-12 small-centered medium-12 large-4 large-uncentered columns bookAuthor">
+            <img src="images/avatar-5.jpg" alt="Author image">
+          </div>
+          <!-- Book Author Section End -->
+        </div>
+      </div>
     </div>
-    <!-- Newsletter Section End -->
+    <!-- Second Showcase Section End -->
     <footer class="footer black">
       <!-- Footer First Row -->
       <div class="row clearfix">
         <!-- Copyright Info -->
         <span class="copyright small-12 large-4 columns">Copyright &copy; 2015 | Nicholas J. Marson</span>
         <!-- Footer Navigation Links-->
-        <span class="footerNav small-12 large-4 columns">
+        <span class="footerNav small-12 large-6 columns">
             <!-- Replace with your email -->
             <a href="author.html" title="Author">Author </a>|
             <a href="contact.html" title="E-mail Us">Contact Us </a>|
@@ -355,11 +356,15 @@
     <!-- bower:js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="/bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+    <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/bower_components/WOW/dist/wow.js"></script>
+    <script src="/bower_components/foundation/js/foundation.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
-    <script src="/scripts/plugins/foundation.js"></script>
     <script src="/scripts/plugins/ajaxchimp.js"></script>
     <!-- endbuild -->
 

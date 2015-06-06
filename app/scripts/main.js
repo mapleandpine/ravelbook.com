@@ -1,5 +1,6 @@
 /* jshint devel:true */
 (function($) {
+    'use strict';
 
     new WOW().init();
 
@@ -7,7 +8,12 @@
     $('input, textarea').placeholder();
 
     // Validate newsletter form
-    $('<div class="spinner"><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div></div>').hide().appendTo('.newsletter');
+    $('<div class="spinner">' +
+        '<div class="square"></div>' +
+        '<div class="square"></div>' +
+        '<div class="square"></div>' +
+        '<div class="square"></div>' +
+        '</div>').hide().appendTo('.newsletter');
     $('<div class="success"></div>').hide().appendTo('.newsletter');
     $('#newsletter-form').validate({
         rules: {
@@ -34,13 +40,17 @@
             }).show().animate({
                 opacity: 1
             });
-            $.post($(form).attr('action'), $(form).serialize(), function(data) {
+            $.post($(form).attr('action'), $(form).serialize(), function() {
                 $('.newsletter').find('.spinner').animate({
                     opacity: 0
                 }, function() {
                     $(this).hide();
-                    $('.newsletter').find('.success').show().html('<i class="icon icon-checkmark"></i> Thank you for subscribing!').animate({
-                        opacity: 1
+                    $('.newsletter')
+                        .find('.success')
+                        .show()
+                        .html('<i class="icon icon-checkmark"></i> ' +
+                            'Thank you for subscribing!').animate({
+                            opacity: 1
                     });
                 });
             });

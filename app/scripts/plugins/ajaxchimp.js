@@ -95,11 +95,11 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
 
                     // Translate and display message
                     if (
-                        settings.language !== 'en'
-                        && $.ajaxChimp.responses[msg] !== undefined
-                        && $.ajaxChimp.translations
-                        && $.ajaxChimp.translations[settings.language]
-                        && $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]]
+                        settings.language !== 'en' &&
+                            $.ajaxChimp.responses[msg] !== undefined &&
+                            $.ajaxChimp.translations &&
+                            $.ajaxChimp.translations[settings.language] &&
+                            $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]]
                     ) {
                         msg = $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]];
                     }
@@ -130,12 +130,12 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                 // Translate and display submit message
                 var submitMsg = 'Submitting...';
                 if(
-                    settings.language !== 'en'
-                    && $.ajaxChimp.translations
-                    && $.ajaxChimp.translations[settings.language]
-                    && $.ajaxChimp.translations[settings.language]['submit']
+                    settings.language !== 'en' &&
+                        $.ajaxChimp.translations &&
+                        $.ajaxChimp.translations[settings.language] &&
+                        $.ajaxChimp.translations[settings.language].submit
                 ) {
-                    submitMsg = $.ajaxChimp.translations[settings.language]['submit'];
+                    submitMsg = $.ajaxChimp.translations[settings.language].submit;
                 }
                 label.html(submitMsg).show(2000);
 
