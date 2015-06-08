@@ -23,6 +23,7 @@
 
 # <IfModule mod_headers.c>
 #     Header set Access-Control-Allow-Origin "*"
+#     Header set Access-Control-Allow-Origin <origin> | "https://s3-us-west-2.amazonaws.com"
 # </IfModule>
 
 # ----------------------------------------------------------------------
