@@ -952,6 +952,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 </IfModule>
 <IfModule mod_headers.c>
 Header append Vary User-Agent env=!dont-vary
+RequestHeader append Accept-Encoding "gzip,deflate"
 </IfModule>
 <IfModule mod_filter.c>
 AddOutputFilterByType DEFLATE text/css application/x-javascript text/x-component text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon
