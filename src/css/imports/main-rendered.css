@@ -675,8 +675,9 @@ header p, .cols {
   background-position: -82px -25px
 }
 #logo svg {
-  width: 197px;
+  fill: var(--colorRed);
   height: 37px;
+  width: 197px;
 }
 #productHero {
   max-width: 320px;
@@ -794,7 +795,8 @@ input[type="submit"] {
 .showcaseOne span, .showcaseTwo span {
   font-size: 3rem;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid #666;
+  color: #666;
   line-height: 80px;
   text-align: center;
   display: block;
@@ -803,16 +805,9 @@ input[type="submit"] {
   margin: 0 auto 20px
 }
 .showcaseOne h4, .showcaseOne p {
-  color: #f8f8f8;
   font-weight: 400;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .8)
-}
-.showcaseOne span {
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, .8)
 }
 .showcaseOne span, .showcaseTwo h4, .showcaseTwo p, .showcaseTwo span {
-  color: #f8f8f8;
   font-weight: 400
 }
 .cols span {
@@ -899,10 +894,10 @@ input[type="submit"] {
   font-weight: 400
 }
 .bookAuthor img {
-  border-radius: 50%;
   display: block;
   float: none;
   margin: 0 5px 0 auto;
+  max-width: 220px;
   box-shadow: 0 0 6px rgba(0, 0, 0, .3)
 }
 .pricing {
@@ -1089,9 +1084,6 @@ input[type="email"]:focus {
   }
 }
 @media only screen and (min-width:64.063em) {
-  header h1 {
-    padding-top: 4rem
-  }
   .buyButton, .watchVideo {
     width: initial;
     margin-right: 2%
@@ -1180,7 +1172,7 @@ input[type="email"]:focus {
   overflow: hidden
 }
 .buyButton:hover, .buyButtonPricing:hover, .buyButton:active, .buyButtonPricing:active, .buyButton:focus, .buyButtonPricing:focus, .socialButtons img:hover {
-  background-color: #d67118;
+  background-color: var(--colorRed);
   transition: all 300ms linear
 }
 input[type="submit"]:focus, input[type="submit"]:hover {
