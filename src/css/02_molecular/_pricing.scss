@@ -1,0 +1,41 @@
+/* ========== Pricing Table Styles ========== */
+
+.pricing {
+    background-color: $white;
+    border-top: 4px $carrot solid;
+    margin-bottom: 20px;
+    text-align: center;
+    .planPriceAlt {
+        border-top: 2px solid $orange-roughy;
+        border-bottom: 2px solid $orange-roughy;
+    }
+    .planName h3 {
+        padding: 40px 5px;
+    }
+    .planPrice p,
+    .planDetails p,
+    .planPriceAlt p {
+        text-align: center;
+        padding: 20px 5px;
+        margin-bottom: 0;
+    }
+    .planPrice p,
+    .planPriceAlt p {
+        font-weight: 400;
+        font-size: 2rem;
+        color: $carrot;
+    }
+    .planName h3:span {
+        font-size: 1rem;
+        text-transform: initial;
+    }
+    .planPriceAlt p {
+        color: $alabaster;
+    }
+}
+
+.pricingTables {
+    p, h4 {
+        color: $dark-gray;
+    }
+}
